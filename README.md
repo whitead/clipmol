@@ -33,3 +33,7 @@ This is an example of finding an molecule that optimizes multiple objectives wit
 
 ### Will you publish this?
 When I have time, yes. If you find a way to make it better, you're welcome to be a co-author. 
+
+### How can I support this important work?
+
+Follow me on Twitter [@andrewwhite01](https://twitter.com/andrewwhite01) or donate $500M to my university to fund an instute on computational emoji studies.
