@@ -1,6 +1,8 @@
 # CLIP Mol
 
-Make molecules that look like a give text prompt. This was built using [SELFIES](https://github.com/aspuru-guzik-group/selfies) to generate the molecules, [rdkit](https://www.rdkit.org/) to draw the molecules, [CLIP](https://github.com/openai/CLIP) to compare the images to the text prompt, and [pymoo](https://pymoo.org) to optimize the molecules' agreement with CLIP. 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/whitead/clipmol/blob/master/colab/CLIPMol.ipynb)
+
+Make molecules that look like a give text prompt. This was built using [SELFIES](https://github.com/aspuru-guzik-group/selfies) to generate the molecules, [rdkit](https://www.rdkit.org/) to draw the molecules, [CLIP](https://github.com/openai/CLIP) to compare the images to the text prompt, and [pymoo](https://pymoo.org) to optimize the molecules' agreement with CLIP.
 
 Here are some examples:
 
@@ -13,7 +15,7 @@ Here are some examples:
 
 ### Fir Tree Animation
 <details>
-<summary>Click to shiow</summary>
+<summary>Click to show</summary>
 
 ![Time laps of molecule turning into a fir tree](https://raw.githubusercontent.com/whitead/clipmol/main/examples/christmas.gif)
 
@@ -32,7 +34,7 @@ This uses pymoo to do multi-objective optimization with genetic algorithms. The 
 This is an example of finding an molecule that optimizes multiple objectives without a differentiable function -- which is quite similar to doing an experiment. So it is an interesting problem. On the other hand, this is kind of just for fun.
 
 ### Will you publish this?
-When I have time, yes. If you find a way to make it better, you're welcome to be a co-author. 
+When I have time, yes. If you find a way to make it better, you're welcome to be a co-author.
 
 ### How can I support this important work?
 
