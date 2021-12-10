@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/whitead/clipmol/blob/master/CLIPMol.ipynb)
 
-Make molecules that look like a give text prompt. This was built using [SELFIES](https://github.com/aspuru-guzik-group/selfies) to generate the molecules, [rdkit](https://www.rdkit.org/) to draw the molecules, [CLIP](https://github.com/openai/CLIP) to compare the images to the text prompt, and [pymoo](https://pymoo.org) to optimize the molecules' agreement with CLIP.
+Make molecules that look like a given text prompt. This was built using [SELFIES](https://github.com/aspuru-guzik-group/selfies) to generate the molecules, [rdkit](https://www.rdkit.org/) to draw the molecules, [CLIP](https://github.com/openai/CLIP) to compare the images to the text prompt, and [pymoo](https://pymoo.org) to optimize the molecules' agreement with CLIP.
 
 Here are some examples:
 
@@ -17,7 +17,7 @@ Here are some examples:
 <details>
 <summary>Click to show</summary>
 
-![Time laps of molecule turning into a fir tree](https://raw.githubusercontent.com/whitead/clipmol/main/examples/christmas.gif)
+![Time lapse of molecule turning into a fir tree](https://raw.githubusercontent.com/whitead/clipmol/main/examples/christmas.gif)
 
 </details>
 
@@ -31,7 +31,7 @@ It's true. CLIPMol works pretty poorly. I usually have to mess with the prompt a
 This uses pymoo to do multi-objective optimization with genetic algorithms. The objectives are (1) make a molecule of a minimum size (2) maximize similarity with text prompt and (3) maximize difference from the current best molecule (to encourage diversity).
 
 ### Why did you make this?
-This is an example of finding an molecule that optimizes multiple objectives without a differentiable function -- which is quite similar to doing an experiment. So it is an interesting problem. On the other hand, this is kind of just for fun.
+This is an example of finding a molecule that optimizes multiple objectives without a differentiable function -- which is quite similar to doing an experiment. So it is an interesting problem. On the other hand, this is kind of just for fun.
 
 ### Will you publish this?
 When I have time, yes. If you find a way to make it better, you're welcome to be a co-author.
