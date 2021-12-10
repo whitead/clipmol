@@ -1,6 +1,6 @@
 # CLIP Mol
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/whitead/clipmol/blob/master/colab/CLIPMol.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/whitead/clipmol/blob/master/CLIPMol.ipynb)
 
 Make molecules that look like a give text prompt. This was built using [SELFIES](https://github.com/aspuru-guzik-group/selfies) to generate the molecules, [rdkit](https://www.rdkit.org/) to draw the molecules, [CLIP](https://github.com/openai/CLIP) to compare the images to the text prompt, and [pymoo](https://pymoo.org) to optimize the molecules' agreement with CLIP.
 
